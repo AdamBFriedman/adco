@@ -161,11 +161,6 @@ button:focus {
   outline: none;
 }
 
-.form-control::-moz-placeholder {
-  color: #ffffff;
-  opacity: 1;
-}
-
 /*------------------------------------------------------------------
     LOADER 
 -------------------------------------------------------------------*/
@@ -1046,6 +1041,12 @@ button:focus {
 .contact-block .form-group textarea.form-control {
   height: 150px;
   padding-top: 15px;
+}
+
+#name::placeholder,
+#email::placeholder,
+#message::placeholder {
+  color: white !important;
 }
 
 .submit-button .btn-common {
