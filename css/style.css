@@ -1044,7 +1044,7 @@ button:focus {
 #name::placeholder,
 #email::placeholder,
 #message::placeholder {
-  color: white !important;
+  color: white;
 }
 
 .submit-button .btn-common {
