@@ -964,6 +964,25 @@ button:focus {
   line-height: 27px;
   margin: 0;
 }
+
+.disney-icon {
+  content: url("../images/disney.png");
+  object-fit: contain;
+  height: 50%;
+  width: 80%;
+  /* display: block; */
+  /* Other styles here */
+}
+
+.football-icon {
+  content: url("../images/football.png");
+  object-fit: contain;
+  height: 50%;
+  width: 80%;
+  /* display: block; */
+  /* Other styles here */
+}
+
 @media only screen and (max-width: 990px) {
   .serviceBox {
     margin-bottom: 30px;
