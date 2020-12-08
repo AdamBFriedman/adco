@@ -25,7 +25,7 @@
   --primary: #0f3823;
   --primary-dark: #0c2c1c;
   --primary-light: #1e90ff;
-  --secondary: #ffffff;
+  --secondary: #52361b;
   --secondary-dark: #1e90ff;
   --secondary-light: #ffffff;
 }
@@ -1019,8 +1019,6 @@ button:focus {
 .contact-box {
   padding: 70px 0px;
 }
-.contact-block {
-}
 
 .contact-block .form-group .form-control {
   background: var(--primary-dark);
@@ -1050,7 +1048,7 @@ button:focus {
 }
 
 .submit-button .btn-common {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   height: 45px;
   line-height: 45px;
   font-size: 16px;
@@ -1060,15 +1058,15 @@ button:focus {
   border: 0;
   outline: 0;
   text-transform: uppercase;
-  border-radius: 0px;
+  border-radius: 5px;
+  transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
-  transition: all 0.3s;
 }
 .submit-button .btn-common:hover {
-  background-color: #528780;
+  background-color: var(--primary);
 }
 
 .custom-select {
