@@ -1021,7 +1021,7 @@ button:focus {
 }
 
 .contact-block .form-group .form-control {
-  background: var(--primary-dark);
+  background: var(--primary);
   height: 45px;
   font-size: 16px;
   border: 0;
@@ -1082,7 +1082,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-  background: var(--primary);
+  background: var(--primary-dark);
   padding: 20px 0;
 }
 
