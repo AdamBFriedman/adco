@@ -140,7 +140,7 @@
       // + minutes + "m " + seconds + "s ";
 
       $("#days").html(days + "<h6>Days</h6>");
-      $("#hours").html(hours + "<h6>Hrs</h6>");
+      $("#hours").html(hours + "<h6>Hours</h6>");
       $("#minutes").html(minutes + "<h6>Min</h6>");
       $("#seconds").html(seconds + "<h6>Sec</h6>");
 

@@ -3036,7 +3036,7 @@
   bottom: 35px;
   left: 50%;
   border-radius: 50px;
-  background-color: var(--primary-dark) !important;
+  background-color: var(--primary) !important;
 }
 .timeLine .row .lineFooter:before {
   position: absolute;
@@ -3059,7 +3059,7 @@
   content: "";
   width: 15px;
   height: 15px;
-  border: 3px solid var(--primary-dark) !important;
+  border: 3px solid var(--primary) !important;
   background-color: white;
   border-radius: 50%;
   position: absolute;
@@ -3071,7 +3071,7 @@
   height: 1px;
   width: 5%;
   position: absolute;
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   top: 16px;
   right: 8px;
 }
@@ -3094,7 +3094,7 @@
   z-index: 999;
   top: -10px;
   left: 20px;
-  background-color: var(--primary-dark) !important;
+  background-color: var(--primary) !important;
   color: white;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
 }
@@ -3149,7 +3149,7 @@
   justify-content: center;
 }
 .timeLine .row .item .caption .image .title {
-  background-color: var(--primary-dark) !important;
+  background-color: var(--primary) !important;
   padding: 0px 20px;
   position: absolute;
   z-index: 9;
@@ -3177,7 +3177,7 @@
   text-justify: justify;
   text-align: left;
   padding: 0px 10px;
-  border-left: 5px solid var(--primary-dark) !important;
+  border-left: 5px solid var(--primary) !important;
 }
 .timeLine .row .pull-right {
   float: right;
@@ -3189,7 +3189,7 @@
   content: "";
   width: 15px;
   height: 15px;
-  border: 3px solid var(--primary-dark) !important;
+  border: 3px solid var(--primary) !important;
   background-color: white;
   border-radius: 50%;
   position: absolute;
@@ -3201,7 +3201,7 @@
   height: 1px;
   width: 5%;
   position: absolute;
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
   top: 21px;
   left: 12px;
 }

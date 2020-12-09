@@ -35,7 +35,7 @@
 -------------------------------------------------------------------*/
 
 body {
-  color: #666666;
+  color: var(--secondary);
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.80857;
@@ -386,7 +386,11 @@ button:focus {
 
 .home-slider {
   position: relative;
-  height: 100%;
+  height: 100vh;
+}
+
+.home-slider img {
+  height: 100vh;
 }
 
 .lbox-caption {
@@ -432,6 +436,7 @@ button:focus {
   color: #ffffff;
   position: relative;
   z-index: 3;
+  margin-top: 10%;
 }
 
 .lbox-details h2 {
@@ -469,18 +474,26 @@ button:focus {
   /* background: url(../images/ptn-bg.jpg);
   background-size: cover; */
   width: 100%;
-  height: 100%;
-  max-width: 550px;
+  /* height: 100%; */
+  /* max-width: 550px; */
   height: 350px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
-  border-radius: 20px 20px 20px 20px;
+  transform: translateY(30%);
+  /* border-radius: 20px 20px 20px 20px; */
 }
+
+.countdown #timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .countdown #timer div {
-  display: inline-block;
+  /* display: inline-block; */
   /* background: #d69b7f; */
-  width: 20%;
+  /* width: 20%; */
   color: #ffffff;
   font-size: 38px;
   /* box-shadow: inset 0 0 0 10px rgba(82, 135, 128, 0.9),
@@ -490,13 +503,21 @@ button:focus {
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  border-radius: 50%;
+  margin: 1em;
+  border: 5px solid transparent;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100px;
+  width: 100px;
+  line-height: 85px;
 }
 
-.countdown #timer h3 {
+.countdown h3 {
   font-family: "Questrial", sans-serif;
   font-size: 38px;
   color: #ffffff;
   font-weight: normal;
+  margin-top: 1%;
   /* padding: 0px;
   padding-top: 28px;
   padding-bottom: 17px; */
@@ -505,17 +526,13 @@ button:focus {
 
 .countdown #timer div h6 {
   /* color: var(--primary-dark); */
+  margin-top: 20%;
   color: white;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 22px;
 }
 
-/* .countdown #timer div#days {
-  position: absolute;
-  left: 0;
-  top: 90px;
-}
-.countdown #timer div#hours {
+/* .countdown #timer div#hours {
   position: absolute;
   right: 0;
   top: 90px;
@@ -573,7 +590,7 @@ button:focus {
 .title-box h2 {
   font-size: 60px;
   font-family: "Questrial", sans-serif;
-  color: #222222;
+  color: var(--primary);
 }
 .title-box h2 span {
   color: var(--primary);
