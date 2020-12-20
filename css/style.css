@@ -920,6 +920,7 @@ button:focus {
   border-top: 3px solid var(--primary-dark);
   border-bottom: 3px solid var(--primary-dark);
   position: relative;
+  height: 100%;
 }
 .serviceBox:before {
   content: "";
@@ -980,6 +981,15 @@ button:focus {
   letter-spacing: 1px;
   line-height: 27px;
   margin: 0;
+}
+.serviceBox .description span {
+  font-style: italic;
+}
+.serviceBox button {
+  padding: 1em;
+  margin-top: 1em;
+  border-color: var(--primary-dark);
+  cursor: pointer;
 }
 
 .disney-icon {
