@@ -992,6 +992,11 @@ button:focus {
   cursor: pointer;
 }
 
+.serviceBox button:hover {
+  background: var(--primary-dark);
+  color: white;
+}
+
 .disney-icon {
   content: url("../images/disney.png");
   object-fit: contain;
