@@ -3076,14 +3076,17 @@
   right: 8px;
 }
 .timeLine .row .item .caption {
-  margin: auto;
-  width: 85%;
+  margin: auto auto auto 3em;
+  width: 55%;
   background: #f0f0f0;
   min-height: 200px;
   position: relative;
   color: #333;
   border: 1px solid #aaa;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+.timeLine .row .item .caption-left {
+  margin: auto 3em auto auto;
 }
 .timeLine .row .item .caption .star {
   width: 50px;
@@ -3216,6 +3219,10 @@
   }
   .timeLine .row .item:after {
     display: none;
+  }
+  .timeLine .row .item .caption {
+    width: 100%;
+    margin: auto;
   }
   .timeLine .row .pull-right {
     margin-top: 0%;

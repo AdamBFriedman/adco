@@ -766,7 +766,8 @@ button:focus {
 -------------------------------------------------------------------*/
 
 .bridesmaids-box,
-.groomsmen-box {
+.groomsmen-box,
+.hotel-box {
   padding: 70px 0px;
 }
 
@@ -774,7 +775,8 @@ button:focus {
   background: url(../images/ptn-bg.jpg);
 }
 
-.single-team-member {
+.bridesmaids,
+.groomsmen {
   position: relative;
   margin-top: 30px;
   border: 10px solid #fff;
@@ -786,7 +788,8 @@ button:focus {
   align-items: center;
   overflow: hidden;
 }
-.single-team-member img {
+.bridesmaids,
+.groomsmen img {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
@@ -813,7 +816,8 @@ button:focus {
   transition: all 0.25s ease-in-out;
 }
 
-.single-team-member:hover .family-info {
+.bridesmaids:hover,
+.groomsmen:hover .family-info {
   bottom: 0;
   opacity: 1;
   visibility: visible;
