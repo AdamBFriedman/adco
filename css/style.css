@@ -787,7 +787,7 @@ button:focus {
 .groomsmen {
   position: relative;
   margin-top: 30px;
-  border: 10px solid #fff;
+  border: 10px solid var(--primary);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   height: 300px;
   width: auto;
@@ -796,14 +796,14 @@ button:focus {
   align-items: center;
   overflow: hidden;
 }
-.bridesmaids,
+.bridesmaids img,
 .groomsmen img {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
 }
 
-.test {
+#patterson {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
