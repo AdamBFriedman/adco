@@ -1,4 +1,9 @@
 /*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap");
+
+/*------------------------------------------------------------------
     ROOT VARIABLES
 -------------------------------------------------------------------*/
 
@@ -3100,6 +3105,7 @@
   background-color: var(--primary) !important;
   color: white;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
 }
 .timeLine .row .item .caption .star span {
   display: inline-block;
@@ -3162,6 +3168,7 @@
   opacity: 0;
   color: white;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
 }
 .timeLine .row .item .caption .image .title:before {
   content: "";
