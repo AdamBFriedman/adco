@@ -803,6 +803,16 @@ button:focus {
   min-height: 100%;
 }
 
+.test {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: url(../images/patterson.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .family-info {
   padding: 25px 30px;
   background-color: var(--primary-dark);
