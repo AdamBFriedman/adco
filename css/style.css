@@ -595,7 +595,7 @@ button:focus {
 }
 .title-box h2 {
   font-size: 60px;
-  font-family: "Questrial", sans-serif;
+  font-family: "Playfair Display", serif;
   color: var(--primary);
 }
 .title-box h2 span {
@@ -791,6 +791,7 @@ button:focus {
   align-items: center;
   overflow: hidden;
   cursor: default;
+  font-family: "Montserrat", sans-serif;
 }
 .bridesmaids img,
 .groomsmen img {
