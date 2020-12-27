@@ -764,19 +764,13 @@ button:focus {
   overflow: hidden;
 }
 
-.image img {
-  /* flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%; */
-}
-
 /*------------------------------------------------------------------
     Party
 -------------------------------------------------------------------*/
 
 .bridesmaids-box,
 .groomsmen-box,
-.hotel-box {
+.travel-box {
   padding: 70px 0px;
 }
 
@@ -1062,45 +1056,12 @@ button:focus {
 }
 
 /*------------------------------------------------------------------
-    Events
+    Registry
 -------------------------------------------------------------------*/
 
-.events-box {
+.registry-box {
   padding: 70px 0px;
-}
-.event-inner {
-  background: #ffffff;
-  text-align: center;
-  margin-bottom: 30px;
-  border: 10px solid #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.event-img {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-.event-img img {
-  transition: all 0.9s ease 0s;
-}
-.event-inner:hover .event-img img {
-  -moz-transform: scale(1.5) rotate(-10deg);
-  -webkit-transform: scale(1.5) rotate(-10deg);
-  -ms-transform: scale(1.5) rotate(-10deg);
-  -o-transform: scale(1.5) rotate(-10deg);
-  transform: scale(1.5) rotate(-10deg);
-}
-.event-inner a {
-  background: var(--primary);
-  color: #ffffff;
-  padding: 5px 10px;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.event-inner a:hover {
-  background: #63c7bd;
+  background: url(../images/ptn-bg.jpg);
 }
 
 /*------------------------------------------------------------------
