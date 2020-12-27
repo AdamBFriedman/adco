@@ -1091,6 +1091,10 @@ button:focus {
   padding-top: 15px;
 }
 
+.submit-button button {
+  cursor: pointer;
+}
+
 #name::placeholder,
 #email::placeholder,
 #message::placeholder {
