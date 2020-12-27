@@ -1001,6 +1001,14 @@ button:focus {
   color: white;
 }
 
+.brunch {
+  content: url("../images/brunch.png");
+  object-fit: contain;
+  height: 50%;
+  width: 80%;
+  /* Other styles here */
+}
+
 .disney-icon {
   content: url("../images/disney.png");
   object-fit: contain;
