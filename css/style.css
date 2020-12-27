@@ -27,7 +27,7 @@
   --primary: #0f3823;
   --primary-dark: #0c2c1c;
   --primary-light: #1e90ff;
-  --secondary: #52361b;
+  --secondary: #a8a39d;
   --secondary-dark: #1e90ff;
   --secondary-light: #ffffff;
 }
@@ -809,7 +809,7 @@ button:focus {
   background-size: 100% 100%;
 }
 
-.family-info {
+.party-info {
   padding: 25px 30px;
   background-color: var(--primary-dark);
   text-align: center;
@@ -830,18 +830,18 @@ button:focus {
   transition: all 0.25s ease-in-out;
 }
 
-.bridesmaids:hover .family-info,
-.groomsmen:hover .family-info {
+.bridesmaids:hover .party-info,
+.groomsmen:hover .party-info {
   bottom: 0;
   opacity: 1;
   visibility: visible;
 }
 
-.family-info h2 {
+.party-info h2 {
   color: white;
 }
 
-.family-info h4 {
+.party-info h4 {
   color: white;
 }
 .title h2 {
