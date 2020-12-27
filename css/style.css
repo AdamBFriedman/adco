@@ -450,10 +450,6 @@ button:focus {
   z-index: 3;
 }
 
-.lbox-details h3 {
-  font-family: "Playfair Display", serif;
-}
-
 .lbox-details p {
   color: #ffffff;
   position: relative;
@@ -521,7 +517,7 @@ button:focus {
 }
 
 .countdown h3 {
-  font-family: "Questrial", sans-serif;
+  font-family: "Playfair Display", serif;
   font-size: 38px;
   color: #ffffff;
   font-weight: normal;
