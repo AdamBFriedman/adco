@@ -997,6 +997,9 @@ button:focus {
 .serviceBox .description span {
   font-style: italic;
 }
+.addressText {
+  font-size: 12px;
+}
 .serviceBox button {
   padding: 1em;
   margin-top: 1em;
