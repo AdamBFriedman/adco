@@ -1061,6 +1061,17 @@ button:focus {
   /* Other styles here */
 }
 
+/* Smart Phones Screen */
+@media (max-width: 767px) {
+  .home-slider {
+    height: auto;
+  }
+
+  .home-slider img {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 990px) {
   .serviceBox {
     margin-bottom: 30px;
