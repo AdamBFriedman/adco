@@ -3182,12 +3182,14 @@
 }
 .timeLine .row .item .textContent {
   padding: 15px 10px;
+  font-family: "Montserrat", sans-serif;
 }
 .timeLine .row .item .textContent p {
   text-justify: justify;
   text-align: left;
   padding: 0px 10px;
   border-left: 5px solid var(--primary) !important;
+  color: var(--primary);
 }
 .timeLine .row .pull-right {
   float: right;

@@ -607,11 +607,14 @@ button:focus {
   font-family: "Questrial", sans-serif;
 }
 .about-main-info h2 span {
-  color: var(--primary);
   text-decoration: underline;
 }
 .about-main-info {
   margin-bottom: 30px;
+  color: var(--primary);
+}
+.about-main-info p {
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-m {
