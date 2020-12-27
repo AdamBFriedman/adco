@@ -397,20 +397,6 @@ button:focus {
   height: 100vh;
 }
 
-.lbox-caption {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.lbox-caption {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-
 .lbox-details {
   display: table-cell;
   text-align: center;

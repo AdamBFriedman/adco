@@ -3094,7 +3094,7 @@
   font-weight: bold;
   line-height: 15px;
   position: absolute;
-  z-index: 999;
+  z-index: 10;
   top: -10px;
   left: 20px;
   background-color: var(--primary) !important;
