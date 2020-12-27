@@ -843,15 +843,12 @@ button:focus {
   visibility: visible;
 }
 
-.family-info h4 {
-  font-family: "Questrial", sans-serif;
-  font-size: 24px;
-  color: #ffffff;
+.family-info h2 {
+  color: white;
 }
-.family-info p {
-  margin: 0px;
-  font-size: 18px;
-  color: #ffffff;
+
+.family-info h4 {
+  color: white;
 }
 .title h2 {
   color: #ffffff;
