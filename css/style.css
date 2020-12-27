@@ -5,6 +5,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Engagement");
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap");
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -417,6 +419,7 @@ button:focus {
   right: 0;
   height: 100%;
   padding: 11% 0%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .lbox-details::before {
@@ -431,12 +434,12 @@ button:focus {
 }
 
 .lbox-details h1 {
-  font-size: 54px;
-  font-family: "Questrial", sans-serif;
+  font-size: 8em;
   color: #ffffff;
   position: relative;
   z-index: 3;
   margin-top: 10%;
+  font-family: "Playfair Display", serif;
 }
 
 .lbox-details h2 {
@@ -446,6 +449,11 @@ button:focus {
   position: relative;
   z-index: 3;
 }
+
+.lbox-details h3 {
+  font-family: "Playfair Display", serif;
+}
+
 .lbox-details p {
   color: #ffffff;
   position: relative;
