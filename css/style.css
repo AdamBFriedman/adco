@@ -26,10 +26,7 @@
 :root {
   --primary: #0f3823;
   --primary-dark: #0c2c1c;
-  --primary-light: #1e90ff;
   --secondary: #a8a39d;
-  --secondary-dark: #1e90ff;
-  --secondary-light: #ffffff;
 }
 
 /*------------------------------------------------------------------
@@ -66,7 +63,7 @@ h6 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: 120% !important;
-  color: #1f1f1f;
+  color: var(--primary);
   margin: 0;
 }
 
