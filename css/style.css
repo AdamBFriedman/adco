@@ -994,9 +994,7 @@ button:focus {
   line-height: 27px;
   margin: 0;
 }
-.serviceBox .description span {
-  font-style: italic;
-}
+
 .addressText {
   font-size: 12px;
 }
