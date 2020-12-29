@@ -1113,6 +1113,10 @@ button:focus {
   border-top: 1px solid var(--primary) !important;
 }
 
+.card-header {
+  background: #efefef;
+}
+
 /*------------------------------------------------------------------
     Contact
 -------------------------------------------------------------------*/
