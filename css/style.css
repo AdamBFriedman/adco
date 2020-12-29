@@ -1045,27 +1045,6 @@ button:focus {
   /* Other styles here */
 }
 
-/* Smart Phones Screen */
-@media (max-width: 767px) {
-  .home-slider {
-    height: auto;
-  }
-
-  .home-slider img {
-    height: auto;
-  }
-
-  .service-card {
-    margin: 1em 0;
-  }
-}
-
-@media only screen and (max-width: 990px) {
-  .serviceBox {
-    margin-bottom: 30px;
-  }
-}
-
 /*------------------------------------------------------------------
     Travel
 -------------------------------------------------------------------*/
@@ -1115,6 +1094,7 @@ button:focus {
 
 .card-header {
   background: #efefef;
+  overflow: scroll;
 }
 
 /*------------------------------------------------------------------
@@ -1208,4 +1188,25 @@ select.form-control:not([size]):not([multiple]) {
 }
 .footer-box .footer-company-name a:hover {
   color: #63c7bd;
+}
+
+/* Smart Phones Screen */
+@media (max-width: 767px) {
+  .home-slider {
+    height: auto;
+  }
+
+  .home-slider img {
+    height: auto;
+  }
+
+  .service-card {
+    margin: 1em 0;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .serviceBox {
+    margin-bottom: 30px;
+  }
 }
