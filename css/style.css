@@ -1094,7 +1094,6 @@ button:focus {
 
 .card-header {
   background: #efefef;
-  overflow: scroll;
 }
 
 /*------------------------------------------------------------------
@@ -1202,6 +1201,11 @@ select.form-control:not([size]):not([multiple]) {
 
   .service-card {
     margin: 1em 0;
+  }
+
+  /* FAQ */
+  .card-header {
+    overflow: scroll;
   }
 }
 
