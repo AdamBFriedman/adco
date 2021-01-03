@@ -3196,34 +3196,6 @@
   left: 12px;
 }
 
-/* Smart Phones Screen */
-@media (max-width: 767px) {
-  .timeLine .row .item {
-    margin-bottom: 4%;
-  }
-  .timeLine .row .item:before {
-    display: none;
-  }
-  .timeLine .row .item:after {
-    display: none;
-  }
-  .timeLine .row .item .caption {
-    width: 80%;
-    margin: auto;
-  }
-  .timeLine .row .item .caption .image .title {
-    left: 0;
-  }
-  .timeLine .row .pull-right {
-    margin-top: 0%;
-  }
-  .timeLine .row .pull-right:before {
-    display: none;
-  }
-  .timeLine .row .pull-right:after {
-    display: none;
-  }
-}
 /* small Screen */
 @media (min-width: 768px) and (max-width: 991px) {
   .timeLine .row .item {

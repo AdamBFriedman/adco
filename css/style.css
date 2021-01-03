@@ -1179,46 +1179,6 @@ select.form-control:not([size]):not([multiple]) {
   color: #63c7bd;
 }
 
-/* Smart Phones Screen */
-@media (max-width: 767px) {
-  .home-slider {
-    height: auto;
-  }
-
-  .home-slider img {
-    height: auto;
-  }
-
-  .slider-details h1 {
-    font-size: 3em !important;
-  }
-
-  .slider-details h2 {
-    font-size: 1.8em !important;
-  }
-
-  .about-main-info h2 {
-    text-align: center;
-  }
-
-  .service-card {
-    margin: auto;
-    width: 80%;
-  }
-
-  .bridesmaids,
-  .groomsmen {
-    max-width: 80%;
-    max-height: 80%;
-    margin: auto;
-  }
-
-  /* FAQ */
-  .card-header {
-    overflow: scroll;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 990px) {
   .home-slider {
     height: auto;
