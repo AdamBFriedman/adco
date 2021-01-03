@@ -394,7 +394,7 @@ button:focus {
   height: 100vh;
 }
 
-.lbox-details {
+.slider-details {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -407,7 +407,7 @@ button:focus {
   font-family: "Montserrat", sans-serif;
 }
 
-.lbox-details::before {
+.slider-details::before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -418,7 +418,7 @@ button:focus {
   z-index: 2;
 }
 
-.lbox-details h1 {
+.slider-details h1 {
   font-size: 8em;
   color: #ffffff;
   position: relative;
@@ -427,7 +427,7 @@ button:focus {
   font-family: "Playfair Display", serif;
 }
 
-.lbox-details h2 {
+.slider-details h2 {
   font-size: 48px;
   color: #ffffff;
   font-weight: 300;
@@ -1189,6 +1189,14 @@ select.form-control:not([size]):not([multiple]) {
     height: auto;
   }
 
+  .slider-details h1 {
+    font-size: 3em !important;
+  }
+
+  .slider-details h2 {
+    font-size: 1.8em !important;
+  }
+
   .about-main-info h2 {
     text-align: center;
   }
@@ -1211,13 +1219,24 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
-@media only screen and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 990px) {
   .home-slider {
     height: auto;
   }
 
   .home-slider img {
     height: auto;
+  }
+
+  .slider-details h1 {
+    font-size: 5em;
+  }
+
+  .countdown #timer div {
+    height: auto;
+    /* width: auto;
+    height: auto; */
+    font-size: 38px !important;
   }
 
   .serviceBox {
