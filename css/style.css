@@ -1009,6 +1009,10 @@ button:focus {
   font-family: "Montserrat", sans-serif;
 }
 
+.contact-box p {
+  color: var(--primary-dark);
+}
+
 .contact-block .form-group .form-control {
   background: var(--primary);
   height: 45px;
@@ -1073,6 +1077,8 @@ select.form-control:not([size]):not([multiple]) {
 .help-block ul li {
   color: red;
 }
+
+/* Footer */
 
 .footer-box {
   background: var(--primary-dark);
