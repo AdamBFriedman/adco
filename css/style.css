@@ -1193,6 +1193,13 @@ select.form-control:not([size]):not([multiple]) {
     margin: 1em 0;
   }
 
+  .bridesmaids,
+  .groomsmen {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+  }
+
   /* FAQ */
   .card-header {
     overflow: scroll;
