@@ -1190,7 +1190,8 @@ select.form-control:not([size]):not([multiple]) {
   }
 
   .service-card {
-    margin: 1em 0;
+    margin: auto;
+    width: 80%;
   }
 
   .bridesmaids,
