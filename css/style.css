@@ -899,7 +899,7 @@ button:focus {
 }
 .serviceBox .description {
   font-size: 15px;
-  color: #333333;
+  color: var(--primary);
   letter-spacing: 1px;
   line-height: 27px;
   margin: 0;
@@ -908,9 +908,6 @@ button:focus {
 .addressText,
 .distanceText {
   font-size: 12px;
-}
-
-.distanceText {
 }
 
 .serviceBox button {
