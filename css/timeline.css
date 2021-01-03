@@ -3082,9 +3082,8 @@
 }
 .timeLine .row .item .caption {
   margin: auto auto auto 3em;
-  width: 55%;
+  width: 80%;
   background: #f0f0f0;
-  min-height: 200px;
   position: relative;
   color: #333;
   border: 1px solid #aaa;
@@ -3244,6 +3243,10 @@
   }
   .timeLine .row .pull-right:after {
     display: none;
+  }
+  .timeLine .row .item .caption {
+    width: 80%;
+    margin: auto;
   }
 }
 
