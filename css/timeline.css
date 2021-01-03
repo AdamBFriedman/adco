@@ -3195,31 +3195,3 @@
   top: 21px;
   left: 12px;
 }
-
-/* small Screen */
-@media (min-width: 768px) and (max-width: 991px) {
-  .timeLine .row .item {
-    margin-bottom: 4%;
-  }
-  .timeLine .row .item:before {
-    display: none;
-  }
-  .timeLine .row .item:after {
-    display: none;
-  }
-  .timeLine .row .pull-right {
-    margin-top: 0%;
-  }
-  .timeLine .row .pull-right:before {
-    display: none;
-  }
-  .timeLine .row .pull-right:after {
-    display: none;
-  }
-  .timeLine .row .item .caption {
-    width: 80%;
-    margin: auto;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */

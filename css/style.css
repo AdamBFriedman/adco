@@ -1178,28 +1178,3 @@ select.form-control:not([size]):not([multiple]) {
 .footer-box .footer-company-name a:hover {
   color: #63c7bd;
 }
-
-@media (min-width: 768px) and (max-width: 990px) {
-  .home-slider {
-    height: auto;
-  }
-
-  .home-slider img {
-    height: auto;
-  }
-
-  .slider-details h1 {
-    font-size: 5em;
-  }
-
-  .countdown #timer div {
-    height: auto;
-    /* width: auto;
-    height: auto; */
-    font-size: 38px !important;
-  }
-
-  .serviceBox {
-    margin-bottom: 30px;
-  }
-}

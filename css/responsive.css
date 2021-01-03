@@ -11,26 +11,55 @@
     font-size: 26px;
   }
 }
-/* only small tablets */
+/* Tablet */
+
 @media (min-width: 768px) and (max-width: 991px) {
-  .top-header .navbar .navbar-collapse ul li a {
-    padding: 5px 15px;
-  }
-  .about-img {
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-  .gallery-box ul li {
-    width: 33.33%;
-  }
+  /* Navbar */
   .top-header {
     position: relative;
   }
+
+  .top-header .navbar .navbar-collapse ul li a {
+    padding: 5 px 15px;
+  }
+
+  /* Slider */
+
+  .home-slider {
+    height: auto;
+  }
+
+  .home-slider img {
+    height: auto;
+  }
+
+  .slider-details h1 {
+    font-size: 5em;
+  }
+
   .slider-details {
     display: block;
     position: relative;
     width: 100%;
   }
+
+  .slider-details::before {
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  /* Countdown */
+
+  .countdown {
+    height: 188px;
+    border-radius: 0px;
+  }
+
+  .countdown #timer div {
+    width: 23%;
+    height: auto;
+    font-size: 38px;
+  }
+
   .countdown #timer div#days,
   .countdown #timer div#hours,
   .countdown #timer div#minutes,
@@ -38,20 +67,48 @@
     position: inherit;
     margin: 12px 0px;
   }
-  .slider-details::before {
-    background: rgba(0, 0, 0, 0.9);
+
+  /* Get To Know Us */
+
+  .about-img {
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
-  .countdown {
-    height: 188px;
-    border-radius: 0px;
+
+  /* Timeline */
+
+  .timeLine .row .item {
+    margin-bottom: 4%;
   }
-  .countdown #timer div {
-    width: 23%;
-    font-size: 24px;
+  .timeLine .row .item:before {
+    display: none;
+  }
+  .timeLine .row .item:after {
+    display: none;
+  }
+  .timeLine .row .pull-right {
+    margin-top: 0%;
+  }
+  .timeLine .row .pull-right:before {
+    display: none;
+  }
+  .timeLine .row .pull-right:after {
+    display: none;
+  }
+  .timeLine .row .item .caption {
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Service Box */
+
+  .serviceBox {
+    margin-bottom: 30px;
   }
 }
 
-/* mobile or only mobile */
+/* Mobile */
+
 @media (max-width: 767px) {
   /* Navbar */
   .navbar-brand {
