@@ -253,6 +253,7 @@
 
   .service-card {
     margin: auto;
+    margin-top: 2em;
     width: 80%;
   }
 
