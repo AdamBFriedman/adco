@@ -1189,6 +1189,10 @@ select.form-control:not([size]):not([multiple]) {
     height: auto;
   }
 
+  .about-main-info h2 {
+    text-align: center;
+  }
+
   .service-card {
     margin: auto;
     width: 80%;
