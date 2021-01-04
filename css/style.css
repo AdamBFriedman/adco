@@ -41,7 +41,7 @@ body {
 }
 
 a {
-  color: #1f1f1f;
+  color: var(--primary-dark);
   text-decoration: none !important;
   outline: none !important;
   -webkit-transition: all 0.3s ease-in-out;
@@ -63,7 +63,7 @@ h6 {
   padding: 0 0 10px 0;
   font-weight: normal;
   line-height: 120% !important;
-  color: var(--primary);
+  color: var(--primary-dark);
   margin: 0;
 }
 
@@ -109,23 +109,6 @@ h4 a:hover,
 h5 a:hover,
 h6 a:hover {
   opacity: 0.8;
-}
-
-a {
-  color: #1f1f1f;
-  text-decoration: none;
-  outline: none;
-}
-
-a,
-.btn {
-  text-decoration: none !important;
-  outline: none !important;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .lead {
@@ -540,26 +523,32 @@ button:focus {
   text-align: center;
   margin-bottom: 30px;
 }
+
 .title-box h2 {
   font-size: 60px;
   font-family: "Playfair Display", serif;
   color: var(--primary);
 }
+
 .title-box h2 span {
   color: var(--primary);
   text-decoration: underline;
 }
-.about-main-info h2 {
-  font-size: 40px;
-  font-family: "Questrial", sans-serif;
-}
-.about-main-info h2 span {
-  text-decoration: underline;
-}
+
 .about-main-info {
   margin-bottom: 30px;
   color: var(--primary-dark);
 }
+
+.about-main-info h2 {
+  font-size: 40px;
+  font-family: "Questrial", sans-serif;
+}
+
+.about-main-info h2 span {
+  text-decoration: underline;
+}
+
 .about-main-info p {
   font-family: "Montserrat", sans-serif;
 }
@@ -803,6 +792,7 @@ button:focus {
   position: relative;
   height: 100%;
   font-family: "Montserrat", sans-serif;
+  color: var(--primary-dark);
 }
 .serviceBox:before {
   content: "";
@@ -847,7 +837,6 @@ button:focus {
 .serviceBox .title {
   font-size: 20px;
   font-weight: 700;
-  color: var(--primary-dark);
   letter-spacing: 1px;
   margin: 0 0 12px 0;
   text-transform: uppercase;
