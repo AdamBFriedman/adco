@@ -395,9 +395,7 @@ button:focus {
 }
 
 .slider-details {
-  display: table-cell;
   text-align: center;
-  vertical-align: middle;
   position: absolute;
   top: 0px;
   left: 0;
