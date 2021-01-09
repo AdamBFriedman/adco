@@ -147,117 +147,111 @@ button:focus {
   display: block;
 }
 
-.pulse {
-  height: 150px;
-  width: 310px;
-  overflow: hidden;
+.Preloader {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.pulse:after {
   content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -240%);
+  font-size: 62px;
+}
+.Loader {
+  animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  top: 50%;
+  content: "";
+  left: 50%;
+  position: absolute;
+}
+
+.loading-1 {
+  width: 1em;
+  height: 1em;
+  border: 1px solid #fff;
+  background-color: #fff;
+  content: "";
+  position: absolute;
   display: block;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300px 100px" enable-background="new 0 0 300px 100px" xml:space="preserve"><polyline fill="none" stroke-width="3px" stroke="white" points="2.4,58.7 70.8,58.7 76.1,46.2 81.1,58.7 89.9,58.7 93.8,66.5 102.8,22.7 110.6,78.7 115.3,58.7 126.4,58.7 134.4,54.7 142.4,58.7 197.8,58.7 "/></svg>')
-    0 0 no-repeat;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -webkit-animation: 2s pulse linear infinite;
-  animation: 2s pulse linear infinite;
-  clip: rect(0, 0, 100px, 0);
-  background-position: 50px 0px;
+  border-radius: 100%;
+  animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  transform: translate(-28px, -27px);
 }
-.pulse:before {
+
+.loading-2 {
+  width: 1em;
+  height: 1em;
+  border: 1px solid #fff;
+  background-color: #fff;
   content: "";
   position: absolute;
-  z-index: -1;
-  left: 2px;
-  right: 2px;
-  bottom: 0;
-  top: 16px;
-  margin: auto;
-  height: 3px;
+  display: block;
+  border-radius: 100%;
+  transform: translate(28px, -27px);
+  animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
 }
 
-.pulse h3 {
-  color: #ffffff;
-  font-family: "Questrial", sans-serif;
-  font-size: 38px;
+.loading-3 {
+  width: 1em;
+  height: 1em;
+  border: 1px solid #fff;
+  background-color: #fff;
+  position: relative;
+  display: block;
+  content: "";
+  transform: scale(1) rotate(-45deg);
+  animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
 }
 
-@-webkit-keyframes pulse {
-  0% {
-    clip: rect(0, 0, 100px, 0);
-    opacity: 0.4;
-  }
-  4% {
-    clip: rect(0, 66.66667px, 100px, 0);
-    opacity: 0.6;
-  }
-  15% {
-    clip: rect(0, 133.33333px, 100px, 0);
-    opacity: 0.8;
-  }
-  20% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 1;
-  }
+.Loader-shadow {
+  top: 97px;
+  left: 50%;
+  content: "";
+  position: relative;
+  display: block;
+  bottom: -0.5em;
+  width: 1em;
+  height: 0.24em;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+}
 
-  80% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 0;
+@keyframes cssload-square {
+  50% {
+    border-radius: 100%;
+    transform: scale(0.5) rotate(-45deg);
   }
-
-  90% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 0;
-  }
-
   100% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 0;
+    transform: scale(1) rotate(-45deg);
   }
 }
-@keyframes pulse {
-  0% {
-    clip: rect(0, 0, 100px, 0);
-  }
-  4% {
-    clip: rect(0, 66.66667px, 100px, 0);
-  }
-  15% {
-    clip: rect(0, 133.33333px, 100px, 0);
-  }
-  20% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 1;
-  }
 
-  80% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 0;
+@keyframes cssload-heart {
+  50% {
+    transform: rotate(360deg);
   }
-
-  90% {
-    opacity: 0;
-  }
-
   100% {
-    clip: rect(0, 300px, 100px, 0);
-    opacity: 0;
+    transform: rotate(720deg);
   }
 }
 
-.pulse {
-  text-align: center;
+@keyframes cssload-heartL {
+  60% {
+    transform: scale(0.4);
+  }
 }
-.pulse i {
-  color: #ffffff;
-  font-size: 38px;
+
+@keyframes cssload-heartR {
+  40% {
+    transform: scale(0.4);
+  }
+}
+
+@keyframes cssload-shadow {
+  50% {
+    transform: scale(0.5);
+    border-color: rgb(228, 228, 228);
+  }
 }
 
 /*------------------------------------------------------------------
