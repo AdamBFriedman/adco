@@ -102,7 +102,11 @@
     margin: auto;
   }
 
-  /* Service Box */
+  /* Service Card */
+
+  .service-card {
+    margin-top: 2em;
+  }
 
   .serviceBox {
     margin-bottom: 30px;
@@ -256,7 +260,6 @@
   .service-card {
     margin: auto;
     margin-top: 2em;
-    width: 80%;
   }
 
   /* FAQ */
