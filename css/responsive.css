@@ -1,5 +1,4 @@
-/* only small desktops */
-/* tablets */
+/* Large Tablet */
 @media (min-width: 992px) and (max-width: 1190px) {
   .countdown {
     height: 285px;
@@ -7,10 +6,8 @@
   .top-header .navbar .navbar-collapse ul li a {
     font-size: 14px;
   }
-  /* .slider-details h2 {
-    font-size: 26px;
-  } */
 }
+
 /* Tablet */
 
 @media (min-width: 601px) and (max-width: 991px) {
@@ -57,17 +54,6 @@
 
   .countdown #timer div {
     font-size: 30px;
-    /* width: 23%;
-    height: auto;
-    font-size: 38px; */
-  }
-
-  .countdown #timer div#days,
-  .countdown #timer div#hours,
-  .countdown #timer div#minutes,
-  .countdown #timer div#seconds {
-    /* position: inherit;
-    margin: 12px 0px; */
   }
 
   /* Get To Know Us */
@@ -158,11 +144,6 @@
   }
 
   /* Countdown */
-
-  .countdown {
-    /* height: 188px;
-    border-radius: 0px; */
-  }
 
   .countdown #timer div {
     font-size: 24px;
